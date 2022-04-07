@@ -12,7 +12,6 @@ Hello, World!
 - list item2
 - list item3
 
-[Link][1]
-[1]: https://tysprouse.github.io/cse15l-lab-reports/
+[Link](https://tysprouse.github.io/cse15l-lab-reports/)
 
 
