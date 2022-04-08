@@ -14,6 +14,6 @@ Added Basic Text
 - list item3
 
 lab report 1:
-[Link](https://tysprouse.github.io/cse15l-lab-reports/lab-report-1-week-2.md)
+[Link](https://tysprouse.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
 
