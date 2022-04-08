@@ -1,1 +1,1 @@
-![Image](https://lh6.googleusercontent.com/QYr6APHNod2bf6ocbH8VJYbPMszneMwkbQBWQldwrtzH4h_TWAaeYJPRTyaehj3246lW3nW5xlzyADYygTMfv95E4tKzSCmxj08_6QdZk1btAX3MpW_2jNJmeGDgphHFimv-qppi)
+![Image](https://www.applesfromny.com/wp-content/uploads/2020/06/SnapdragonNEW.png)
