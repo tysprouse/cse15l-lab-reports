@@ -17,4 +17,14 @@ The bug was that the program sees the open bracket and attempts to read further,
 
 [Link to Failure-Inducing Input](https://github.com/tysprouse/markdown-parser/blob/main/test-file3.md)
 
-![Image](https://lh5.googleusercontent.com/pYLyt2pcVSySjjMhysNJfqSjvBNFpyHJzOreqTxKSwG_N1E9wgAHGJsm7-0v8M1YYN2oCE8c_z6SA2M0Oyfv0Ll6pvrVRLeFM815T0VquJ4V0kSGNMvtDQ9BUw-GDeaB7fY8PJ0e)
+![Image](https://lh5.googleusercontent.com/pYLyt2pcVSySjjMhysNJfqSjvBNFpyHJzOreqTxKSwG_N1E9wgAHGJsm7-0v8M1YYN2oCE8c_z6SA2M0Oyfv0Ll6pvrVRLeFM815T0VquJ4V0kSGNMvtDQ9BUw-GDeaB7fY8PJ0e)  
+
+I think the bug is that the program sees that the file does not end after the last link and continues to read, but since the rest of the contents in the file is null, an infinite loop is created. The out of memory error indicates an infinite loop. Adding a print statement to track the value of currentIndex showed that the value of currentIndex reaches a value then never changes (as if to be updated by +0 at the end of each loop), yet the loop continues.
+
+**Fix #3**
+
+![Image](https://lh6.googleusercontent.com/yyWwLsHCQvqvHXnVXulxRCcRVg9uSkgKESHP3FDPGF-sHyxJhhlH86CJLN1K4NODqXzdUr5F6VrU9lMSFFUMjABL1jPc8YzFomIEbwu7aitrr0WT5qXjTW1tQTNM5Tgyv0YyPTNL)
+
+[Link to Failure-Inducing Input](https://github.com/tysprouse/markdown-parser/blob/main/test-file4.md)
+
+![Image](https://lh4.googleusercontent.com/_Cryf5F_GGgZ7Bct6E10vM8Eu6Wp8RR5opJqaFsMj9T_OlSHsSal40MzZpQgZwuhGBxAFb68E9TBWygnrE5W5f9li0_krpEnHGAJezhujidAH-SBC2Ece1XR2Aj2FK-Eb0N7FTsm)
