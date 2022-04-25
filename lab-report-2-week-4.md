@@ -27,4 +27,6 @@ I think the bug is that the program sees that the file does not end after the la
 
 [Link to Failure-Inducing Input](https://github.com/tysprouse/markdown-parser/blob/main/test-file4.md)
 
-![Image](https://lh4.googleusercontent.com/_Cryf5F_GGgZ7Bct6E10vM8Eu6Wp8RR5opJqaFsMj9T_OlSHsSal40MzZpQgZwuhGBxAFb68E9TBWygnrE5W5f9li0_krpEnHGAJezhujidAH-SBC2Ece1XR2Aj2FK-Eb0N7FTsm)
+![Image](https://lh4.googleusercontent.com/_Cryf5F_GGgZ7Bct6E10vM8Eu6Wp8RR5opJqaFsMj9T_OlSHsSal40MzZpQgZwuhGBxAFb68E9TBWygnrE5W5f9li0_krpEnHGAJezhujidAH-SBC2Ece1XR2Aj2FK-Eb0N7FTsm)  
+
+This bug does not cause an error in the terminal, however it shows unwanted behavior in the program. The syntax for including images in a markdown file is similar to including links (both have the "[]()" structure), and therefore the program reads them as links and adds them to the list of links that gets returned at the end. This causes the program to return both links and image urls when we only want the links.
