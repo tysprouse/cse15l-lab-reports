@@ -19,7 +19,7 @@ We will be using [Autograder](https://autograder.ucsd.edu) as the student queue 
 Have a _nice_ week!
 
 lab report 1:
-[Link](https://tysprouse.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+[Link]( https://tysprouse.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
 lab report 2:
 [Link](https://tysprouse.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
