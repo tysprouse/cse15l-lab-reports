@@ -22,6 +22,9 @@
 
 ## Setup Github Access from ieng6
 
+![Image](https://lh6.googleusercontent.com/9lV9J6PSMa795GXm_zy6AaxMLyTcoWg1934OvOCliXY0DZ0sLWvkm38Cs7AF5QYVdof_q9oVh37aaItavFE2by9zmI-qSh1slwFEYSkHn37AaA-eRqYjVv_Gd4Le_-0J1FF_p4QRe8Ecs0qTQA)
+- This is where the private key is located on my client
+
 ## Copy whole directories with scp -r
 
 ![Image](https://lh6.googleusercontent.com/5hgRxIFxdCmShJsgbHf3Wunx8uceaJwk5kycIm95jVgv9y6q6qo-geHLeRwpGWcGPZ0qOfF2JmoigttgI7ZUG4eale295O-pSgbJXdmkFi-xNydcD614SbGA1gppR8IbtV9LAXxCLEe-Lz1nig)
