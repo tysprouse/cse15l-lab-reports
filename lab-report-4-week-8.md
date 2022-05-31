@@ -1,5 +1,6 @@
 # Lab Report 4
 
+
 [Link to my repo](https://github.com/tysprouse/markdown-parser-echidnas.git)
 
 
@@ -7,6 +8,8 @@
 
 
 According to VScode Preview, the expected for each snippet is as follows:
+
+
 - Snippet 1 test should return the list [%60google.com, google.com, ucsd.edu] *I don't know where the %60 comes from, but that is what the preview says*
 - Snippet 2 test should return the list [a.com, a.com(()), example.com]
 - snippet 3 test should return the list [https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, https://cse.ucsd.edu/]
