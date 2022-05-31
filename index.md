@@ -26,3 +26,6 @@ lab report 2:
 
 lab report 3:
 [Link](https://tysprouse.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
+
+lab report 4:
+[Link](https://tysprouse.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
